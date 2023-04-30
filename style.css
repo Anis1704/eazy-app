@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: #d3b000;
+}
+/* nav */
+.nav {
+  width: 100%;
+  height: 113px;
+  background-color: #142532;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3.5rem;
+  font-size: 3rem;
+  border-radius: 0px 0px 25px 25px;
+}
+.nav a {
+  text-decoration: none;
+  color: #fff;
+}
+.nav .links a {
+  margin-left: 2rem;
+}
+/* hero */
+.hero {
+  color: #142532;
+  width: 100%;
+  padding: 0 3.5rem;
+  display: flex;
+}
+.hero .left {
+  width: 48%;
+}
+.rel {
+  position: relative;
+  display: block;
+  height: 369.88px;
+  width: 100%;
+}
+.hero .left .rel {
+  margin-top: 167px;
+}
+.hero .left .rel .victor {
+  display: block;
+  position: absolute;
+  right: 0;
+}
+.hero .left .logo {
+  display: block;
+  margin: 91.12px auto 0 auto;
+}
+.hero .left .slogo {
+  font-size: 3rem;
+  text-align: center;
+}
+.hero .left .info {
+  margin: 180px auto 0 auto;
+  width: 788px;
+  font-size: 5rem;
+  text-align: center;
+}
+.hero .right {
+  width: 52%;
+}
+.hero .right .card {
+  width: 739px;
+  height: 1896px;
+  margin-top: 60px;
+  padding-top: 107px;
+  background-color: #142532;
+  border-radius: 25px;
+  position: relative;
+}
+.hero .right .card img {
+  display: block;
+}
+.hero .right .card .rel .victor {
+  display: block;
+  position: absolute;
+  left: 0;
+}
+.hero .right .card .screen {
+  margin: 91.36px auto 8px auto;
+}
+.hero .right .card .logos {
+  display: flex;
+  justify-content: center;
+  gap: 135px;
+  padding: 55.76px 0;
+}
+/* team */
+.team {
+  width: 100%;
+  padding: 41px 3.5rem;
+  margin-top: 255px;
+  background-color: #142532;
+  color: #fff;
+  border-radius: 25px 25px 0px 0px;
+  font-size: 3rem;
+}
+.team .team_members {
+  display: flex;
+  justify-content: space-around;
+}
+.team .team_members .member img {
+  display: block;
+  margin: 0 auto 11px auto;
+}
+.team .team_members .member label {
+  text-align: center;
+}
+/* footer */
+.footer {
+  width: 100%;
+  padding: 41px 3.5rem;
+  background-color: #142532;
+  color: #fff;
+  font-size: 3rem;
+}
+.footer .info {
+  display: flex;
+  padding: 97px 0 186px 0;
+}
+.footer .info .phone,
+.footer .info .email {
+  width: 50%;
+  text-align: center;
+}
